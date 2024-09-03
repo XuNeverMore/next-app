@@ -6,9 +6,13 @@ import { NetFolder, Net } from "@/libs/nets";
 import iconDelete from "@/assets/images/delete.svg";
 
 const defaultNets: NetFolder[] = [];
-export default function NavList({ isEdit }) {
+export default function NavList({
+  isEdit = false,
+  count = 0,
+  onRefresh = () => {},
+}) {
   const [nets, setNets] = useState(defaultNets);
-  const [count, setCount] = useState(0);
+
   useEffect(() => {
     fetch("/api/net_list")
       .then((res) => res.json())
@@ -42,17 +46,15 @@ export default function NavList({ isEdit }) {
                 />
                 <p className="text-black-400">{child.title}</p>
               </Link>
-              <Image
-                src={iconDelete}
-                width={24}
-                className="hover:bg-blue-200 rounded-full aspect-square p-2px"
-                alt="delete"
-                onClick={() =>
-                  deleteNet(item.title, child, () => {
-                    setCount(count + 1);
-                  })
-                }
-              ></Image>
+              {isEdit && (
+                <Image
+                  src={iconDelete}
+                  width={24}
+                  className="hover:bg-blue-200 rounded-full aspect-square p-2px"
+                  alt="delete"
+                  onClick={() => deleteNet(item.title, child, onRefresh)}
+                ></Image>
+              )}
             </div>
           );
         })}

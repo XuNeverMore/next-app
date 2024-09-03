@@ -77,6 +77,11 @@
           "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
           "title": "Kimi.ai",
           "url": "https://kimi.moonshot.cn/"
+        },
+        {
+          "icon": "https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png",
+          "title": "扣子",
+          "url": "https://www.coze.cn/home"
         }
       ]
     },
