@@ -1,0 +1,99 @@
+{
+  "nets": [
+    {
+      "title": "Technology",
+      "children": [
+        {
+          "icon": "https://www.gstatic.cn/devrel-devsite/prod/vb04bc6a770b206c5880569d039fa6eaa90ca0850e1afe1934dab7999e04ac53a/android/images/favicon.svg",
+          "title": "Android Developers",
+          "url": "https://developer.android.google.cn/?hl=zh-cn"
+        },
+        {
+          "icon": "https://nextjs.org/favicon.ico",
+          "title": "Next.js",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "icon": "https://www.tailwindcss.cn/favicons/favicon.ico?v=3",
+          "title": "TailwindCSS中文文档",
+          "url": "https://www.tailwindcss.cn/"
+        },
+        {
+          "icon": "https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png",
+          "title": "NPM",
+          "url": "https://www.npmjs.com/"
+        },
+        {
+          "icon": "https://nodejs.org/static/images/favicons/favicon.png",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en"
+        },
+        {
+          "icon": "https://pub-web.flutter-io.cn/favicon.ico?hash=nk4nss8c7444fg0chird9erqef2vkhb8",
+          "title": "Pub",
+          "url": "https://pub-web.flutter-io.cn/"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "邀请好友多级分成",
+          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1"
+        }
+      ]
+    },
+    {
+      "title": "Work",
+      "children": [
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.27.0",
+          "url": "https://733asm.axshare.com/?id=v41jmq&p=家族广场&g=1&sc=3"
+        },
+        {
+          "icon": "https://lhcdn.lanhuapp.com/web/static/favicon.ico?v=2",
+          "title": "UCOO_2.24.0-蓝湖",
+          "url": "https://lanhuapp.com/web/#/item/project/stage?tid=dac2a4f3-48d9-416e-a7b9-7f4043a880db&pid=a7131cf1-d520-425f-ba6c-32386282150a"
+        },
+        {
+          "icon": "https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_16dp.png",
+          "title": "UCOO - Crashlytics",
+          "url": "https://console.firebase.google.com/u/0/project/ucoo-386017/crashlytics/app/android:com.qyqy.ucoo/issues?hl=zh-cn&state=open&time=last-seven-days&tag=all&sort=eventCount&types=crash"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.28.0",
+          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1"
+        }
+      ]
+    },
+    {
+      "title": "AI Tools",
+      "children": [
+        {
+          "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+          "title": "豆包",
+          "url": "https://www.doubao.com/chat/"
+        },
+        {
+          "icon": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
+          "title": "Kimi.ai",
+          "url": "https://kimi.moonshot.cn/"
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "children": [
+        {
+          "icon": "https://excalidraw.com/favicon-32x32.png",
+          "title": "Excalidraw",
+          "url": "https://excalidraw.com/"
+        },
+        {
+          "icon": "https://www.suxieban.com/favicon.ico",
+          "title": "在线画画",
+          "url": "https://www.suxieban.com/"
+        }
+      ]
+    }
+  ]
+}
