@@ -5,11 +5,9 @@ export default function Home() {
   return (
     <div>
       <NetEditor></NetEditor>
-      <div className="flex gap-2 p-4 w-full items-center justify-center">
+      <div className="flex gap-2 p-4 w-full items-start flex-wrap justify-center">
         <CalendarView />
-        <div className="flex gap-2">
-          <NavList isEdit={false} />
-        </div>
+        <NavList isEdit={false} />
       </div>
     </div>
   );
