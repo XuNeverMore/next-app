@@ -28,7 +28,7 @@ export default function NavList({
         key={item.title}
         className="min-w-24 flex flex-col gap-2 items-center border-2 border-gray-200 rounded-lg p-4"
       >
-        <p className="text-xl">{item.title}</p>
+        <p className="text-xl text-blue-500">{item.title}</p>
         {item.children.map((child) => {
           return (
             <div key={child.url} className="flex w-full items-center">
@@ -44,7 +44,7 @@ export default function NavList({
                   height={30}
                   className="rounded-full"
                 />
-                <p className="text-black-400">{child.title}</p>
+                <p className="text-black">{child.title}</p>
               </Link>
               {isEdit && (
                 <Image

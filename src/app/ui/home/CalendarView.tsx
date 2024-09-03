@@ -7,7 +7,7 @@ export default function CalendarView() {
   });
   return (
     <div className="p-4 border-2 border-gray-200 rounded-lg">
-      <p className="text-center text-xl p-2">{`${d.year}年${d.month}月`}</p>
+      <p className="text-center text-xl p-2 text-black">{`${d.year}年${d.month}月`}</p>
       <div className="grid-cols-7 grid gap-2 text-center">
         {weekHeaders.map((header) => (
           <p key={header} className="min-w-10 pb-2">
