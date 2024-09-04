@@ -38,7 +38,7 @@ export default function NavList({
                 className="w-full flex p-2 hover:bg-green-100 rounded-md items-center gap-2 flex-1"
               >
                 <Image
-                  src={child.icon}
+                  src={child.icon||'/next.svg'}
                   alt={child.title}
                   width={30}
                   height={30}
