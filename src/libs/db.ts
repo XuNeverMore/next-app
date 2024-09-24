@@ -3,9 +3,11 @@ import { Net, NetFolder } from "./nets.js";
 
 type Data = {
   nets: NetFolder[];
+  copyText: string;
 };
 const defaultData: Data = {
   nets: [],
+  copyText: "",
 };
 async function getDatabase() {
   const db = await JSONFilePreset<Data>("./db.json", defaultData);
@@ -35,4 +37,12 @@ async function deleteNet(category: string, net: Net) {
   await db.write();
 }
 
-export { getDatabase, addNet , deleteNet };
+async function setCopyText(text: string) {
+  const db = await getDatabase();
+  await db.update((data) => {
+    data.copyText = text;
+  });
+  await db.write();
+}
+
+export { getDatabase, addNet, deleteNet,setCopyText };

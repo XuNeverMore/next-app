@@ -36,3 +36,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 - [tailwindcss](https://www.tailwindcss.cn/)
+
+# Feature
+
+## copy text
+
+> 一端更新文本，另一端实时显示文本
+
+### 显示文本
+
+访问`/text`
+
+### 更新文本
+
+访问 `/text/update`
