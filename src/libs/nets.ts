@@ -2,6 +2,7 @@ export interface Net {
   icon: string;
   title: string;
   url: string;
+  visible?: boolean;
 }
 
 export interface NetFolder {
@@ -9,6 +10,4 @@ export interface NetFolder {
   children: Array<Net>;
 }
 
-export const categorys = [
-  'Technology','Work','AI Tools','Design'
-]
+export const categorys = ["Technology", "Work", "AI Tools", "Design"];

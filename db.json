@@ -41,7 +41,8 @@
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.27.0",
-          "url": "https://733asm.axshare.com/?id=v41jmq&p=家族广场&g=1&sc=3"
+          "url": "https://733asm.axshare.com/?id=v41jmq&p=家族广场&g=1&sc=3",
+          "visible": false
         },
         {
           "icon": "https://lhcdn.lanhuapp.com/web/static/favicon.ico?v=2",
@@ -56,12 +57,14 @@
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.28.0",
-          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1"
+          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1",
+          "visible": false
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.28.0-F",
-          "url": "https://zn5e0f.axshare.com/?id=0mkvjd&p=日区消息push&g=1"
+          "url": "https://zn5e0f.axshare.com/?id=0mkvjd&p=日区消息push&g=1",
+          "visible": false
         },
         {
           "title": "项目文档",
@@ -79,17 +82,44 @@
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.29.0-J",
-          "url": "https://a2d9p8.axshare.com/?id=ugpc48&p=家族小金库和活跃任务&g=1&sc=3"
+          "url": "https://a2d9p8.axshare.com/?id=ugpc48&p=家族小金库和活跃任务&g=1&sc=3",
+          "visible": false
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.29.0-F",
-          "url": "https://ktt7q9.axshare.com/?id=los803&p=日区优化点&g=1&sc=3"
+          "url": "https://ktt7q9.axshare.com/?id=los803&p=日区优化点&g=1&sc=3",
+          "visible": false
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.30.0-F",
           "url": "https://24vffv.axshare.com/?id=694vpp&p=语音通话渗透率提升&g=1&sc=3"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.30.0-J",
+          "url": "https://ym1nod.axshare.com/?g=1&id=zo98zi&p=日区会员功能"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.31.0-J",
+          "url": "https://p5adyl.axshare.com/?g=14&id=j34omb&p=日区女用户自定义打招呼消息&sc=3"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.32.0",
+          "url": "https://yh0m38.axshare.com/?id=l16egi&p=日区装扮商城&g=1&sc=3"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.33.0-J",
+          "url": "https://sw1wc8.axshare.com/?id=nytfhs&p=幸运礼物&g=1"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.33.0-F",
+          "url": "https://ccul9a.axshare.com/?id=qhi3zw&p=日区红包功能&g=1"
         }
       ]
     },
@@ -149,5 +179,5 @@
       ]
     }
   ],
-  "copyText": "你好😯🤔，哈哈哈,你好江山永固你的1234你的五个字体时尚感是我的"
+  "copyText": "一个黄鹂时代给"
 }
