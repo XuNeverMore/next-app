@@ -40,9 +40,13 @@
       "children": [
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.35.0-J",
+          "url": "https://xfqevs.axshare.com/?id=ll32pu&p=头等舱俱乐部&g=1"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.27.0",
-          "url": "https://733asm.axshare.com/?id=v41jmq&p=家族广场&g=1&sc=3",
-          "visible": false
+          "url": "https://733asm.axshare.com/?id=v41jmq&p=家族广场&g=1&sc=3"
         },
         {
           "icon": "https://lhcdn.lanhuapp.com/web/static/favicon.ico?v=2",
@@ -57,14 +61,12 @@
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.28.0",
-          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1",
-          "visible": false
+          "url": "https://sytf3c.axshare.com/?id=07rkcb&p=邀请好友多级分成&g=1"
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.28.0-F",
-          "url": "https://zn5e0f.axshare.com/?id=0mkvjd&p=日区消息push&g=1",
-          "visible": false
+          "url": "https://zn5e0f.axshare.com/?id=0mkvjd&p=日区消息push&g=1"
         },
         {
           "title": "项目文档",
@@ -82,14 +84,12 @@
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.29.0-J",
-          "url": "https://a2d9p8.axshare.com/?id=ugpc48&p=家族小金库和活跃任务&g=1&sc=3",
-          "visible": false
+          "url": "https://a2d9p8.axshare.com/?id=ugpc48&p=家族小金库和活跃任务&g=1&sc=3"
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.29.0-F",
-          "url": "https://ktt7q9.axshare.com/?id=los803&p=日区优化点&g=1&sc=3",
-          "visible": false
+          "url": "https://ktt7q9.axshare.com/?id=los803&p=日区优化点&g=1&sc=3"
         },
         {
           "icon": "https://app.axure.cloud/app/favicon.ico",
@@ -120,6 +120,16 @@
           "icon": "https://app.axure.cloud/app/favicon.ico",
           "title": "v2.33.0-F",
           "url": "https://ccul9a.axshare.com/?id=qhi3zw&p=日区红包功能&g=1"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.34.0",
+          "url": "https://rnnmq2.axshare.com/?id=0m724z&p=华语区年度盛典活动&g=1&sc=3"
+        },
+        {
+          "icon": "https://app.axure.cloud/app/favicon.ico",
+          "title": "v2.35.0-F",
+          "url": "https://luws16.axshare.com/?id=iw5zt4&p=全区极速赛车优化&g=1"
         }
       ]
     },

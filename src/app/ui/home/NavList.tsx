@@ -31,14 +31,16 @@ export default function NavList({
   }, [count]);
   const list = nets.map((item) => {
     return (
+      // tailwind 不能超过父元素高度，否则会滚动
+
       <div
         key={item.title}
-        className="min-w-24 flex flex-col gap-2 items-center border-2 border-gray-200 rounded-lg p-4"
+        className="min-w-24 flex flex-col gap-2 items-center border-2 border-gray-200 rounded-lg p-2 scrollable"
       >
-        <p className="text-xl text-blue-500">{item.title}</p>
+        <p className="text-xl text-blue-500 sticky top-0">{item.title}</p>
         {item.children.map((child) => {
           return (
-            <div key={child.url} className="flex w-full items-center">
+            <div key={child.url} className="flex w-full">
               <Link
                 href={child.url}
                 target="_blank"

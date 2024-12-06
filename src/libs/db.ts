@@ -19,7 +19,8 @@ async function addNet(category: string, net: Net) {
   await db.update((data) => {
     let folder = data.nets.find((c) => c.title === category);
     if (folder && !folder.children.find((n) => n.url === net.url)) {
-      folder.children.push(net);
+      //数组头部插入
+      folder.children.unshift(net);
     }
   });
   await db.write();
@@ -45,4 +46,4 @@ async function setCopyText(text: string) {
   await db.write();
 }
 
-export { getDatabase, addNet, deleteNet,setCopyText };
+export { getDatabase, addNet, deleteNet, setCopyText };
