@@ -52,4 +52,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 访问 `/text/update`
 
 ### Github
-[next-app](https://github.com/XuNeverMore/next-app)
+- github repo [next-app](https://github.com/XuNeverMore/next-app)
+- github action: [next-pages](https://github.com/marketplace/actions/next-pages)
