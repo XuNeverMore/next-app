@@ -50,3 +50,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### 更新文本
 
 访问 `/text/update`
+
+### Github
+[next-app](https://github.com/XuNeverMore/next-app)
