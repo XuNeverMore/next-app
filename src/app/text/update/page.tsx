@@ -20,7 +20,7 @@ export default function Page() {
       let add = `http://${ip}:3000/text`;
       console.log(ip);
       setIp(add);
-      qrCodetoDataURL(add, (data) => {
+      qrCodetoDataURL(add, (error, data) => {
         console.log("qrcode", data);
         setQrcode(data);
       });

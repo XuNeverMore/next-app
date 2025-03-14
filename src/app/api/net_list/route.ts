@@ -1,8 +1,8 @@
-import { NextApiRequest } from "next";
 import { getDatabase, addNet,deleteNet } from "@/libs/db";
 import { Result } from "@/libs/Result";
 import { Net } from "@/libs/nets";
-export async function GET(req: NextApiRequest) {
+import { NextRequest } from "next/server";
+export async function GET(req: NextRequest) {
   let db = await getDatabase();
   return Response.json(Result.success(db.data.nets));
 }
