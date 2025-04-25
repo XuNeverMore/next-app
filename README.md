@@ -54,3 +54,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Github
 - github repo [next-app](https://github.com/XuNeverMore/next-app)
 - github action: [next-pages](https://github.com/marketplace/actions/next-pages)
+
+# web-ext
+浏览器插件：显示网站信息插件

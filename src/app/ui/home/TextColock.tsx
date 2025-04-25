@@ -7,7 +7,7 @@ export default function TextColock() {
     return () => clearInterval(timer);
   }, []);
   return (
-    <p className="font-mono text-2xl border-4 border-green-300 pl-4 pr-4 rounded-lg" suppressHydrationWarning>
+    <p className="font-mono text-2xl pl-4 pr-4" suppressHydrationWarning>
       {time.toLocaleDateString() + " " + time.toLocaleTimeString()}
     </p>
   );
