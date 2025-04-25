@@ -38,15 +38,17 @@ export default function OffWorkTicker() {
     const timer = setInterval(() => {
       countdown -= 1;
       //将countdown毫秒数转换为时分秒
-      const h = Math.floor(countdown / 3600);
-      const m = Math.floor((countdown % 3600) / 60);
-      const s = Math.floor(countdown % 60);
-      setTimeLeft(`${h}:${m}:${s}`);
+      const h = Math.floor(countdown / 3600) + "";
+      const m = Math.floor((countdown % 3600) / 60) + "";
+      const s = Math.floor(countdown % 60) + "";
+      setTimeLeft(
+        `${h.padStart(2, "0")}:${m.padStart(2, "0")}:${s.padStart(2, "0")}`
+      );
       if (countdown <= 0) {
         clearInterval(timer);
       }
     }, 1000);
   }, []);
 
-  return <div>{timeLeft}</div>;
+  return <span className="font-mono">{timeLeft}</span>;
 }

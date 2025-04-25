@@ -137,6 +137,16 @@
       "title": "AI Tools",
       "children": [
         {
+          "icon": "https://cdn-bot.hunyuan.tencent.com/logo.png",
+          "title": "腾讯元宝",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa"
+        },
+        {
+          "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+          "title": "Gemini",
+          "url": "https://gemini.google.com/app?hl=zh-cn"
+        },
+        {
           "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
           "title": "豆包",
           "url": "https://www.doubao.com/chat/"
@@ -166,6 +176,11 @@
     {
       "title": "Design",
       "children": [
+        {
+          "icon": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+          "title": "Icons - Google Fonts",
+          "url": "https://fonts.google.com/icons"
+        },
         {
           "icon": "https://excalidraw.com/favicon-32x32.png",
           "title": "Excalidraw",

@@ -12,7 +12,7 @@ export default function NetEditor({
   const [category, setCategory] = useState(categorys[0]);
   const [net, setNet] = useState("");
   return (
-    <div className="p-4 w-screen flex flex-col items-end">
+    <div className="p-4 flex flex-col items-end w-full">
       <Image
         src={iconSetting}
         alt="setting"
@@ -27,7 +27,7 @@ export default function NetEditor({
             <select
               onChange={(e) => setCategory(e.target.value)}
               value={category}
-              className="bg-slate-300 p-2"
+              className="bg-green-400 p-2 rounded-lg text-white m-1"
               title="category"
             >
               {categorys.map((item) => {
@@ -39,7 +39,7 @@ export default function NetEditor({
               })}
             </select>
             <textarea
-              className="w-1/3 m-2 bg-gray-300 rounded-lg"
+              className="w-1/3 m-2 bg-gray-300 rounded-lg align-top px-2 py-1"
               placeholder="please input net info"
               onChange={(e) => {
                 setNet(e.target.value);

@@ -1,12 +1,12 @@
 import { getSimpleDate } from "@/libs/dateutil";
 export default function CalendarView() {
-  const weekHeaders = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const weekHeaders = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
   const d = getSimpleDate(new Date());
   const array = Array.from({ length: d.lastDay + d.startWeek }, (_, i) => {
     return i - d.startWeek + 1;
   });
   return (
-    <div className="p-4 border-2 border-gray-200 rounded-lg">
+    <div className="p-4 border-2 border-gray-200 rounded-lg bg-white shadow-md">
       <p className="text-center text-xl p-2 text-black">{`${d.year}年${d.month}月`}</p>
       <div className="grid-cols-7 grid gap-2 text-center">
         {weekHeaders.map((header) => (
